@@ -175,7 +175,7 @@ const SkipSelector: React.FC<SkipSelectorProps> = ({
           <div className={cn(
             "gap-6 mb-8",
             viewMode === 'grid'
-              ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4"
               : "flex flex-col space-y-4"
           )}>
             {skipOptions.map((skip) => (
@@ -219,8 +219,8 @@ const SkipSelector: React.FC<SkipSelectorProps> = ({
           {/* Footer Note */}
           <div className="mt-12 text-center">
             <p className="text-xs text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              All imagery and information displayed may not reflect exact specifications. Colors and features may vary.
-              Additional options or accessories may be available at extra cost. Prices include VAT where applicable.
+            Imagery and information shown throughout this website may not reflect the exact shape or size specification, 
+            colours may vary, options and/or accessories may be featured at additional cost.
             </p>
           </div>
         </div>
